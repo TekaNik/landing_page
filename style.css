@@ -1,9 +1,10 @@
 header{
     border: solid red;
+    height: 350px;
 }
 
 
-nav, nav ul{
+nav, nav ul, nav + section{
     display: flex;
     justify-content: space-around;
    
