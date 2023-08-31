@@ -1,9 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    background-color: #1F2937;
+}
 header{
+    color: white;
     border: solid red;
-    height: 350px;
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-
+/* logo */
+header nav a#logo{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
 nav, nav ul, nav + section{
     display: flex;
     justify-content: space-around;
@@ -16,4 +30,55 @@ nav ul li a{
     text-decoration: none;
     margin-left: 3rem;
 
+}
+
+/* hero section */
+nav + section{
+    margin: 5rem;
+    border: solid red;
+}
+nav + section h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+    
+}
+nav + section p, nav ul li a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+nav + section p{
+    width: 50%;
+}
+
+
+main section{
+   height: 200px;
+   width: 100%;
+   border: 5px solid #00ff55;
+}
+
+/* main sections */
+main section.boxes div img{
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    border: 5px solid green;
+}
+
+main section.boxes {
+    border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+
+/* footer */
+footer{
+    color: white;
+    height: 35px;
+    width: 100%;
 }
