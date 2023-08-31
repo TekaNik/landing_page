@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, sans-serif;
 }
 header,footer{
     background-color: #1F2937;
 }
 header{
     color: white;
-    border: solid red;
+    /* border: solid red; */
     height: 450px;
     width: 100%;
     margin: 0 auto;
@@ -36,7 +36,7 @@ nav ul li a{
 /* hero section */
 nav + section{
     margin: 5rem;
-    border: solid red;
+    /* border: solid red; */
 }
 nav + section h1{
     text-transform: capitalize;
@@ -57,7 +57,7 @@ nav + section p{
 main section{
    height: 200px;
    width: 100%;
-   border: 5px solid #00ff55;
+   /* border: 5px solid #00ff55; */
   
 }
 
@@ -73,11 +73,11 @@ main section.boxes div img{
     width: 40%;
     height: 40%;
     padding: 20px;
-    border: 5px solid green;
+    /* border: 5px solid green; */
 }
 
 main section.boxes {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -96,7 +96,7 @@ main section.quote p{
 
 main section + section + section{
     display: flex;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     
 }
 main section + section + section a{
