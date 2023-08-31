@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 header,footer{
     background-color: #1F2937;
@@ -109,4 +110,5 @@ footer{
     color: white;
     height: 35px;
     width: 100%;
+    text-align: center;
 }
