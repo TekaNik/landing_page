@@ -57,9 +57,17 @@ main section{
    height: 200px;
    width: 100%;
    border: 5px solid #00ff55;
+  
 }
 
 /* main sections */
+main > h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    
+}
 main section.boxes div img{
     width: 40%;
     height: 40%;
@@ -75,6 +83,26 @@ main section.boxes {
     height: auto;
 }
 
+main section.quote{
+    background-color: #e5e7eb;
+}
+main section.quote p{
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+main section + section + section{
+    display: flex;
+    border: 5px solid black;
+    
+}
+main section + section + section a{
+    color: #3882f6;
+    padding: 2px;
+
+}
 
 /* footer */
 footer{
