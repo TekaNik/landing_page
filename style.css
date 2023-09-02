@@ -38,13 +38,16 @@ nav + section{
     margin: 5rem;
     border: solid red;
 }
-nav + section div{
+nav + section div + div{
     border: 5px solid green;
+    height: 250px;
+    width: 300px;
     
 }
 nav + section div img{
-    height: 100px;
-    width: 100px;
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
 }
 nav + section h1{
     text-transform: capitalize;
