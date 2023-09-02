@@ -45,7 +45,7 @@ nav + section div + div{
     
 }
 nav + section div img{
-   object-fit: contain;
+   object-fit: cover;
    height: 100%;
    width: 100%;
 }
