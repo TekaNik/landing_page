@@ -36,7 +36,15 @@ nav ul li a{
 /* hero section */
 nav + section{
     margin: 5rem;
-    /* border: solid red; */
+    border: solid red;
+}
+nav + section div{
+    border: 5px solid green;
+    
+}
+nav + section div img{
+    height: 100px;
+    width: 100px;
 }
 nav + section h1{
     text-transform: capitalize;
