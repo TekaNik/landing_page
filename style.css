@@ -86,7 +86,8 @@ main section.boxes {
     width: 100%;
     height: auto;
     border: 3px solid red;
-    text-align: center;  /* i centered the container itself so that the imgs inside the container be centered */
+   text-align: center;    /*i centered the container itself so that the imgs inside the container be centered or use flexbox to use align-items: center; */
+    
 
    
 }
