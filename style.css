@@ -88,6 +88,7 @@ main section.boxes {
     height: auto;
     border: 3px solid red;
    text-align: center;    /*i centered the container itself so that the imgs inside the container be centered or use flexbox to use align-items: center; */
+   padding: 10rem;
     
 
    
@@ -111,12 +112,19 @@ main section.boxes div p{
 
 main section.quote{
     background-color: #e5e7eb;
+    height: auto;
+    padding: 11rem;
 }
-main section.quote p{
+main section.quote p, main section.quote span{
     font-style: italic;
     font-weight: light;
     font-size: 36px;
     color: #1f2937;
+    
+}
+main section.quote span{
+    display: block;
+    text-align: end;
 }
 
 main section + section + section{
