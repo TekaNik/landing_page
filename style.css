@@ -51,6 +51,7 @@ nav + section div img{
 }
 nav + section h1{
     text-transform: capitalize;
+    width:70%;
     font-weight: bolder;
     color: #F9FAF8;
     font-size: 48px;
