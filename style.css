@@ -128,22 +128,28 @@ main section.quote span{
 }
 
 main section + section + section{
+    width: 50%;
+    margin: 0 auto;
     border: 5px solid black;
     background-color: #3882f6;
-    height: 100px;
+    height: 130px;
     color: #fff;
+    
+    
+}
+main section + section + section h3{
+    font-size: 1.5rem;
+}
+main section + section + section p{
+    /* display: flex; */
+    
     
 }
 main section + section + section span{
-    font-size: 2rem;
-}
-main section + section + section p{
-    /* align-self: flex-start; */
-}
-main section + section + section a{
-    color: inherit;
-    padding: 2px;
-    /* align-self: center; */
+    
+    margin-left: 2.5rem;
+    border: 2px solid #fff;
+    padding: 1rem;
 
 }
 
