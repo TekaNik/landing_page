@@ -8,11 +8,13 @@ footer{
 header{
     color: white;
     /* border: solid red; */
-    height: 450px;
+    height: 55rem;
     width: 100%;
     margin: 0 auto;
     background-image: url(img/andreea-avramescu-v_hBNRgyuFw-unsplash.jpg);
-    background-size: -50px 50px;
+    background-size: 100%;
+    /* background-position-x: 65%; */
+    background-position-y: 50%;
     background-repeat: no-repeat;
 }
 
