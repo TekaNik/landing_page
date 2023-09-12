@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 footer{
     background-color: #1F2937;
 }
@@ -63,11 +64,13 @@ nav + section h1{
     width:70%;
     font-weight: bolder;
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 5rem;
+    /* font-size: 48px; */
 }
 nav + section p, nav ul li a{
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 2rem;
+    /* font-size: 18px; */
 }
 nav + section p{
     width: 50%;
