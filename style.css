@@ -146,7 +146,7 @@ main section + section + section span{
 }
 
 /* This is the "ourServices" page styles */
-section#TheCalculator{
+section#TheCalculator, section#TheCalculator + p{
     border: 2px solid black;
     width: 500px;
     margin: 2rem auto;
@@ -158,6 +158,13 @@ section#TheCalculator ul li{
     font-size: larger;
     border: 2px solid;
     width: fit-content;
+    
+}
+section#TheCalculator ul li:hover{
+    cursor: pointer;
+}
+section#TheCalculator + p{
+    border:none;
 }
 /* footer */
 footer{

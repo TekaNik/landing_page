@@ -1,3 +1,4 @@
+/*
 document.getElementById('black').onclick = dothis
 
 function dothis(){
@@ -10,4 +11,24 @@ function dothis(){
         document.getElementById('black').innerHTML ="wrong Password"
     }
     
+} */
+
+// ourservice section
+let total = 0;
+document.querySelector('#zero').addEventListener('click',addZero)
+document.querySelector('#add3').addEventListener('click',add3)
+document.querySelector('#subt-1').addEventListener('click',subtract1)
+
+function addZero(){
+    total = total + 0
+    document.getElementById('result').innerText = total
+}
+
+function add3(){
+    total = total + 3;
+    document.getElementById('result').innerText = total
+}
+function subtract1(){
+    total = total - 1
+    document.getElementById('result').innerText = total
 }
