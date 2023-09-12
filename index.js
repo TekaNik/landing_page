@@ -32,3 +32,20 @@ function subtract1(){
     total = total - 1
     document.getElementById('result').innerText = total
 }
+
+/*
+document.querySelector('#check'). addEventListener('click', check)
+
+function check(){
+    const day = document.querySelector('#day').ariaValueMax;
+
+    if(day =='Tuesday' || day =='Thursday'){
+        document.querySelector('placetoput').innerText = 'class'
+    }
+    else if( day == 'Saturday' || day == 'Sunday'){
+        document.querySelector('#placeto').innerText = ' weeked'
+    }
+    else{
+        document.querySelector('#place').innerText= 'boring day'
+    }
+}*/
