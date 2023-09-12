@@ -145,6 +145,20 @@ main section + section + section span{
     border-radius: 10%;
 }
 
+/* This is the "ourServices" page styles */
+section#TheCalculator{
+    border: 2px solid black;
+    width: 500px;
+    margin: 2rem auto;
+}
+section#TheCalculator ul{
+    list-style: none;
+}
+section#TheCalculator ul li{
+    font-size: larger;
+    border: 2px solid;
+    width: fit-content;
+}
 /* footer */
 footer{
     color: white;
