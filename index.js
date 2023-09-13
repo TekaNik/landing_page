@@ -33,19 +33,19 @@ function subtract1(){
     document.getElementById('result').innerText = total
 }
 
-/*
+
 document.querySelector('#check'). addEventListener('click', check)
 
 function check(){
-    const day = document.querySelector('#day').ariaValueMax;
+    const day = document.querySelector('#day').value;
 
-    if(day =='Tuesday' || day =='Thursday'){
-        document.querySelector('placetoput').innerText = 'class'
+    if(day ==='tuesday' || day ==='thursday'){
+        document.querySelector('#result').innerText = 'class Day'
     }
-    else if( day == 'Saturday' || day == 'Sunday'){
-        document.querySelector('#placeto').innerText = ' weeked'
+    else if( day === 'saturday' || day === 'sunday'){
+        document.querySelector('#result').innerText = ' WeeKend'
     }
     else{
-        document.querySelector('#place').innerText= 'boring day'
+        document.querySelector('#result').innerText= 'Borrrring day'
     }
-}*/
+}
