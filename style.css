@@ -146,7 +146,7 @@ main section + section + section span{
 }
 
 /* This is the "ourServices" page styles */
-section#TheCalculator, section#TheCalculator + p{
+section#TheCalculator, section#TheCalculator + p, section#TheCalendar{
     border: 2px solid black;
     width: 500px;
     margin: 2rem auto;

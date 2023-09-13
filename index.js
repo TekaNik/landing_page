@@ -37,7 +37,7 @@ function subtract1(){
 document.querySelector('#check'). addEventListener('click', check)
 
 function check(){
-    const day = document.querySelector('#day').value;
+    const day = document.querySelector('#day').value.toLowerCase();
 
     if(day ==='tuesday' || day ==='thursday'){
         document.querySelector('#result').innerText = 'class Day'
