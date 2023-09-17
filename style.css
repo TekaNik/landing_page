@@ -171,6 +171,7 @@ section#TheCalendar form input#day{
     margin-left: 10px;
     display: block;
 }
+
 /* footer */
 footer{
     color: white;
@@ -178,4 +179,6 @@ footer{
     width: 100%;
     text-align: center;
     padding: 2rem 1rem;
+    position: relative;
+    bottom: -255px;
 }
