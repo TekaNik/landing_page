@@ -18,7 +18,9 @@ let total = 0;
 document.querySelector('#zero').addEventListener('click',addZero)
 document.querySelector('#add3').addEventListener('click',add3)
 document.querySelector('#subt-1').addEventListener('click',subtract1)
-
+document.querySelector('#mult7').addEventListener('click', multiplying)
+document.querySelector('#divi4'). addEventListener('click',dividing)
+document.querySelector('#mod3').addEventListener('click',moduling)
 function addZero(){
     total = total + 0
     document.getElementById('result').innerText = total
@@ -32,6 +34,19 @@ function subtract1(){
     total = total - 1
     document.getElementById('result').innerText = total
 }
+function multiplying(){
+    total = total * 7
+    document.getElementById('result').innerText = total
+}
+function dividing(){
+    total = total /4
+    document.querySelector('#result').innerText = total
+}
+function moduling(){
+    total = total%3
+    document.querySelector('#result').innerText = total
+}
+
 
 
 document.querySelector('#check'). addEventListener('click', check)
