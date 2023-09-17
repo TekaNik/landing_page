@@ -151,6 +151,10 @@ section#TheCalculator, section#TheCalculator + p, section#TheCalendar{
     width: 500px;
     margin: 2rem auto;
 }
+section#TheCalculator h1, section#TheCalendar h1{
+    text-align: center;
+    border-bottom: 7px solid black;
+}
 section#TheCalculator ul{
     list-style: none;
 }
